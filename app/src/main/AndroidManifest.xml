@@ -14,6 +14,7 @@
         android:theme="@style/AppThemePink">
         <activity android:name=".OtherActivity"
             android:theme="@style/AppThemeBlue">
+            <example><!-- Can be set for calculator app to change to light mode --></example>
         </activity>
         <activity android:name=".MainActivity">
             <intent-filter>
